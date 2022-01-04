@@ -7,6 +7,9 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.{vue,js,ts}": "eslint --fix"
+  },
   "dependencies": {
     "@types/node": "^17.0.5",
     "vue": "^3.2.25",
@@ -25,6 +28,7 @@
     "eslint-plugin-typescript": "^0.14.0",
     "eslint-plugin-vue": "^7.20.0",
     "husky": "^7.0.0",
+    "lint-staged": "^12.1.5",
     "sass": "^1.45.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",

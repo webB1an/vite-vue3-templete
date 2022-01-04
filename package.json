@@ -17,6 +17,8 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
     "@typescript-eslint/eslint-plugin": "^5.1.0",
     "@typescript-eslint/parser": "^5.1.0",
     "@vitejs/plugin-vue": "^2.0.0",
@@ -28,7 +30,7 @@
     "eslint-plugin-typescript": "^0.14.0",
     "eslint-plugin-vue": "^7.20.0",
     "husky": "^7.0.0",
-    "lint-staged": "^12.1.5",
+    "lint-staged": "^11.1.4",
     "sass": "^1.45.2",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",

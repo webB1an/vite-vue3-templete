@@ -16,7 +16,7 @@ import { useStore } from 'vuex'
 
 // 使用 store
 const store = useStore()
-const a = 3
+const a = 4
 // mutation
 const testMutationAdd = () => store.commit('ADD')
 const testMutationSub = () => store.commit('SUB')

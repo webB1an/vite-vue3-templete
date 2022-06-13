@@ -14,6 +14,8 @@
 import { computed } from 'vue'
 import { useStore } from 'vuex'
 
+// console.log(import.meta.env)
+
 // 使用 store
 const store = useStore()
 const a = 4
